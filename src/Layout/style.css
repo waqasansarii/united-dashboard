@@ -1,0 +1,21 @@
+.custom_nav{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 10px 30px !important;
+    background-color: #013220;
+}
+.navbar-collapse{
+    flex-grow: inherit !important;
+    /* margin-right: 20px !important; */
+}
+.secnd_nav_ul{
+    margin-right: 40px !important;
+}
+.nav-link{
+    padding: .5rem 1rem !important;
+}
+.nav_icons{
+    width: 20px;
+    margin-top: 10px;
+    opacity: .7;
+}

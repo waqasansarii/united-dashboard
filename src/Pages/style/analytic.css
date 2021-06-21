@@ -1,0 +1,235 @@
+.analytic_container {
+  padding: 10px 20px;
+}
+.anayltic_table_md {
+  display: flex;
+  justify-content: space-between;
+}
+.visitors_container{
+    margin-top: 40px;
+    display: flex;
+    /* align-items: center; */
+}
+
+/* analytics pie charts  */
+.chart_analytic_md{
+    display: flex;
+    justify-content: space-between;
+}
+.analytic_chart_div{
+    width: 24%;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 5px gainsboro;
+    border-radius: 15px;
+    position: relative;
+    padding: 15px;
+    padding-bottom: 10px;
+    margin: 40px 0px;
+}
+.pie_chart{
+    margin: 0px auto !important;
+    background-color: #FAFAFA !important;
+}
+.chart_card_head{
+    position: absolute;
+    z-index: 111;
+}
+.legends{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two_legend{
+    width: 60%;
+    margin: 0px auto;
+    left: 60px;
+}
+.legend{
+    display: flex;
+    align-items: center;
+}
+.legend>p{
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 0px 4px;
+}
+/* table css  */
+.analytic_table_conatainer {
+  width: 32%;
+  /* min-width: 400px; */
+  overflow-x: auto;
+}
+.table_analytic_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table_analytic_head > p {
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+.table_analytic_head > h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0px;
+}
+.custom_analytic_table {
+  border: none !important;
+  border-bottom: none !important;
+  border-spacing: 0 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  border: 0px;
+  text-indent: 0;
+  /* width: 415px; */
+  width: 100%;
+  min-width: 410px;
+  margin-top: 10px;
+  font-size: 0.9em;
+  text-align: center;
+  overflow-x: auto;
+}
+.custom_analytic_table td {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.custom_analytic_table thead {
+  text-align: start;
+}
+.laptop {
+  background-color: #ffeedb !important;
+  border-radius: 20px;
+  color: #ff8800;
+  padding: 5px 12px;
+}
+.mobile {
+  background-color: #dbe0ff !important;
+  color: #0023ff;
+  border-radius: 20px;
+  padding: 5px 12px;
+  width: 80px !important;
+
+}
+.custom_analytic_table td {
+  background-color: #fafafa;
+}
+.tablet {
+  color: #00c857;
+  border-radius: 20px;
+  background-color: #d2f6e2;
+  padding: 5px 15px;
+
+}
+.desktop {
+  color: #ff0000;
+  border-radius: 20px;
+  background-color: #ffd4d4 !important;
+  padding: 5px 12px;
+
+}
+.pm{
+    background-color: black !important;
+    color: white !important;
+    padding: 2px;
+    font-size: .65rem;
+}
+.am{
+    background-color: #E1E1E1 !important;
+    color: black !important;
+    padding: 2px;
+    font-size: .65rem;
+}
+
+/* visitors  */
+
+.visitor_container{
+    background-color: #FAFAFA;
+    box-shadow: 0px 0px 5px gainsboro;
+    border-radius: 10px;
+    padding: 15px;
+    width: 24%;
+    min-width: 370px;
+}
+.visitor_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.visitor_head p,.visitor_head h5{
+    margin-bottom: 0px;
+}
+.visitor_img{
+    display: flex;
+    align-items: center;
+}
+.visitor_img h5{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.visitor_img img{
+    width: 40px;
+}
+.visitor_percent{
+    display: flex;
+    align-items: center;
+}
+.visitor_percent p{
+    font-size: .8rem;
+    font-weight: bold;
+}
+.visitor_percent h5{
+    color: #00c857;
+    font-size: 1.5rem;
+}
+.visitor_ul{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25px;
+}
+.visitor_ul img{
+    width: 30px;
+    height: 30px;
+}
+.visitor_ul p{
+    margin-bottom: 0px;
+}
+.visitor_ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.visitorName{
+    display: flex;
+    align-items: center;
+}
+.visitor_ul>li>p{
+    font-weight: 600;
+}
+.visitorName>p{
+    margin-left: 10px;
+    font-weight: bold;
+    /* font-size: .9rem; */
+}
+
+/* analysis bar chart  */
+.analysis_bar_chart_container{
+  background-color: #FAFAFA;
+  box-shadow: 0px 0px 5px gainsboro;
+  border-radius: 10px;
+  padding: 15px;
+  width: 20%;
+  min-width: 380px;
+  margin-left: 20px;
+}
+
+/* map  */
+.analytic_google_map{
+  height: 60vh;
+  width: 40%;
+  position: absolute;
+  top: 50;
+  right: 0;
+}
