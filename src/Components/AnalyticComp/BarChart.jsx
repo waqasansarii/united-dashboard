@@ -71,6 +71,7 @@ const BarChart = () => {
               minorGridlines: { color: "#fafafa" },
             },
             bars: "horizontal",
+            
           }}
           // For tests
           rootProps={{ "data-testid": "6" }}

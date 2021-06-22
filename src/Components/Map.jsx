@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import GoogleMapReact from "google-map-react";
 import useSupercluster from "use-supercluster";
 import { mapData } from "../Pages/mapData";
+import {mapStyle} from './mapStyle'
 import Marker from "./Marker";
 import "./Style/map.css";
 import { useEffect } from "react";
@@ -49,19 +50,22 @@ const SimpleMap = ({ className, width }) => {
     zoom: 12,
     options: { radius: 75, maxZoom: 20 },
   });
+  const options = {
+    styles:mapStyle
+  }
   return (
     <div className="google_map_container">
       <div className={className}>
         <GoogleMapReact
           style={{ width: { width } }}
-          bootstrapURLKeys={{ key: "AIzaSyAptapBAGhPRas_Mgz_3GddElIorTgUyc8" }}
+          // bootstrapURLKeys={{ key: "AIzaSyDjvRB2R3fsmcmU_pXTHvhIKOTLyJ3OwNQ" }}
           defaultCenter={{ lat: 52.6376, lng: -1.135171 }}
           defaultZoom={zoom}
           yesIWantToUseGoogleMapApiInternals
           onGoogleApiLoaded={({ map }) => {
             mapRef.current = map;
           }}
-          options={{backgroundColor:'white'}}
+          options={options}
           onChange={({ zoom, bounds }) => {
             setZoom(zoom);
             setBounds([
