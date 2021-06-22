@@ -19,3 +19,21 @@
     margin-top: 10px;
     opacity: .7;
 }
+
+/* copyright  */
+
+.copy_right_container{
+    background-color: #013220;
+    color: white;
+    text-align: center;
+    padding: 12px ;
+}
+.copyRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyRight p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}

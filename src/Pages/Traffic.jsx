@@ -25,9 +25,26 @@ const Traffic = () => {
         <StaticCard />
       </div>
       <div className="trafic_right_map">
-        <SimpleMap className='google_map_md' />
+        <SimpleMap className="google_map_md" />
+        <div className="overall_users">
+          <div className="users">
+            <p>Total users</p>
+            <h5>257,5840</h5>
+          </div>
+          <div className="users">
+            <p>Unique</p>
+            <h5>257,5840</h5>
+          </div>
+          <div className="users">
+            <p>New users</p>
+            <h5>257,5840</h5>
+          </div>
+          <div className="users">
+            <p>Usage</p>
+            <h5>257,5840</h5>
+          </div>
+        </div>
       </div>
-      
     </div>
   );
 };

@@ -1,14 +1,22 @@
 import React from "react";
 import "./Style/map.css";
 
-const Marker = ({ lat, lng, id }) => {
+const Marker = ({ lat, lng, id, users, img, name }) => {
+  // console.log(name);
   return (
     <div>
-      <div
-        key={id}
-      />
-      <div className="user_name">username</div>
-      {/* <img style={{width:50}} src="https://upload.wikimedia.org/wikipedia/commons/f/f2/678111-map-marker-512.png" alt="" /> */}
+      {name?
+      <div key={id} >
+
+      <div className="user_name">
+        <img src={img} alt="" />
+        <div className='marker_name'>
+          <p>{name}</p>
+          <p className='users_num'>{users}</p>
+        </div>
+      </div>
+      </div>
+       :null} 
     </div>
   );
 };
