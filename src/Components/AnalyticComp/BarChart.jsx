@@ -9,13 +9,13 @@ const BarChart = () => {
   React.useEffect(() => {
     window.addEventListener("resize", updateWidthAndHeight);
     return () => window.removeEventListener("resize", updateWidthAndHeight);
-},[]);
-  let [bar,setbar] = useState(350) 
-  if(widht<400){
-    bar=270
+  }, []);
+  let [bar] = useState(350);
+  if (widht < 400) {
+    bar = 270;
   }
-  if(widht<320){
-    bar=250
+  if (widht < 320) {
+    bar = 250;
   }
 
   return (
@@ -31,8 +31,6 @@ const BarChart = () => {
           </div>
         </div>
         <Chart
-          // width={"300px"}
-          // height={"300px"}
           chartType="BarChart"
           className="bar_chart"
           loader={<div>Loading Chart</div>}
@@ -71,7 +69,6 @@ const BarChart = () => {
               minorGridlines: { color: "#fafafa" },
             },
             bars: "horizontal",
-            
           }}
           // For tests
           rootProps={{ "data-testid": "6" }}

@@ -2,7 +2,6 @@ import React from "react";
 import "./Style/map.css";
 
 const Marker = ({ lat, lng, id, users, img, name }) => {
-  // console.log(name);
   return (
     <div>
       {name?
