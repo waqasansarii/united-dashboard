@@ -13,6 +13,9 @@
 .visitors_list {
   display: flex;
 }
+/* .analytic_map_container{
+  border: 2px solid red;
+} */
 
 /* analytics pie charts  */
 .chart_analytic_md {
@@ -226,7 +229,10 @@
   min-width: 380px;
   margin-left: 20px;
 }
-
+.bar_chart{
+  width: 350px;
+  height: 300px;
+}
 /* map  */
 .analytic_google_map {
   height: 60vh;
@@ -293,6 +299,9 @@
 @media screen and (max-width: 400px) {
   .visitor_container,.analysis_bar_chart_container{
     min-width: 330px;
+  }
+  .bar_chart{
+    width: 250px !important;
   }
 }
 @media screen and (max-width: 350px) {

@@ -61,6 +61,7 @@ const SimpleMap = ({ className, width }) => {
           onGoogleApiLoaded={({ map }) => {
             mapRef.current = map;
           }}
+          options={{backgroundColor:'white'}}
           onChange={({ zoom, bounds }) => {
             setZoom(zoom);
             setBounds([
