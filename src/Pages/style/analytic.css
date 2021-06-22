@@ -1,5 +1,6 @@
 .analytic_container {
   padding: 10px 20px;
+  margin-bottom: 100px;
 }
 .anayltic_table_md {
   display: flex;
@@ -13,9 +14,6 @@
 .visitors_list {
   display: flex;
 }
-/* .analytic_map_container{
-  border: 2px solid red;
-} */
 
 /* analytics pie charts  */
 .chart_analytic_md {
@@ -155,6 +153,7 @@
   padding: 15px;
   width: 24%;
   min-width: 370px;
+  height: max-content;
 }
 .visitor_head {
   display: flex;
@@ -245,7 +244,7 @@
 @media screen and (max-width: 1325px) {
   .visitors_container {
     flex-direction: column;
-    height: 145vh;
+    height: 125vh;
   }
   
   .analytic_google_map {
@@ -276,13 +275,11 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .analytic_map_container{
-    /* position: relative; */
-
+  .visitors_container{
+    height: 190vh;
   }
   .visitor_container{
     width: 60%;
-    /* height: 150vh; */
   }
   .analysis_bar_chart_container{
     margin-left: 0px;

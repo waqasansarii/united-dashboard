@@ -14,7 +14,7 @@ const AppRouter = () => {
                     <Route exact path='/' component={Traffic} />
                     <Route exact path='/analytic' component={Analytic} />
                 </Switch>
-                <CopyRight />
+                {/* <CopyRight /> */}
             </Router>
         </div>
     )
