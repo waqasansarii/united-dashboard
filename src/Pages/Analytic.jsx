@@ -32,7 +32,7 @@ const Analytic = () => {
           </div>
         </div>
       </div>
-      <CopyRight />
+      {/* <CopyRight /> */}
     </React.Fragment>
   );
 };
