@@ -9,10 +9,6 @@
   margin-top: 40px;
   display: flex;
   margin-bottom: 50px;
-  /* position: relative; */
-  /* height: 150vh; */
-  border: 2px solid red;
-  /* align-items: center; */
 }
 .visitors_list {
   display: flex;
