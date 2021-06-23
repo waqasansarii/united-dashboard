@@ -4,10 +4,11 @@
 }
 .trafic_left_content {
   width: 40%;
+  padding-left: 30px;
 }
 .statistics_div{
     margin-top: 50px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
 .statistics_div h1{
     font-size: 2rem;
@@ -30,7 +31,7 @@
 .trafic_right_map{
     margin-top: 30px;
     height: 100vh;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .overall_users{
     display: flex;
@@ -44,7 +45,8 @@
 }
 .overall_users p,.overall_users h5{
    margin-bottom: 5px;
-   font-weight: bold;
+   font-weight: 600;
+   font-size: .9rem;
 }
 .overall_users h5{
   font-size: 1.5rem;
@@ -67,16 +69,20 @@
   font-size: 0.9em;
   text-align: center;
 }
+.custom_table th{
+    padding-left: 0px !important;
+}
 .table > :not(caption) > * > * {
   border-bottom-width: inherit !important;
 }
 .custom_table td {
   background-color: #fafafa;
+  padding-left: 0px !important;
 }
 .table_head{
     display: flex;
     justify-content: space-between;
-    padding: 0px 35px;
+    padding: 0px 20px;
     align-items: center;
     margin-top: 40px;
 }
@@ -96,7 +102,7 @@
 .statistics_card_md{
     display: flex;
     margin-top: 30px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 .statistics_card{
     color: white;
@@ -104,16 +110,18 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 30px 20px;
-    border-radius: 15px;
+    padding: 30px 25px;
+    border-radius: 18px;
     text-align: center;
     margin: 0px 5px;
+    position: relative;
+    z-index: 11111;
 }
 .card_body_t{
   margin-top: 30px;
 }
 .statistics_card p{
-    font-size: .8rem;
+    font-size: .75rem;
     margin-bottom: 0px;
 }
 .purple{
@@ -126,15 +134,15 @@
     background-color: #FC8F66;
 }
 
-@media screen and (max-width:1260px){
+/* @media screen and (max-width:1260px){
     .statistics_card_md{
         margin-left: 10px;
     }
-}
+} */
 @media screen and (max-width:1150px){
-    .statistics_card_md{
+    /* .statistics_card_md{
         margin-left: 10px;
-    }
+    } */
     .statistics_card{
         padding: 30px 10px;
     }
@@ -165,6 +173,7 @@
         margin-left: 50px;
     }
 }
+
 @media screen and (max-width:600px){
     .statistics_div{
         margin-left: 15px;
@@ -176,7 +185,7 @@
         margin-left: 0px;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:520px){
     .statistics_card{
         padding: 30px 10px;
     }
