@@ -22,7 +22,7 @@ const StaticCard = () => {
                        <img src={cyan} alt="..." />
                    </div>
                    <div className="card_body_t">
-                       <p>Transactions</p>
+                       <p>Purchases</p>
                        <h5>424,556,854</h5>
                    </div>
                 </div>
@@ -31,7 +31,7 @@ const StaticCard = () => {
                        <img src={orange} alt="..." />
                    </div>
                    <div className="card_body_t">
-                       <p>Transactions</p>
+                       <p>Growth</p>
                        <h5>424,556,854</h5>
                    </div>
                 </div>
