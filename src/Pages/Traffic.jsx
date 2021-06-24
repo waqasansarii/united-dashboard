@@ -5,7 +5,7 @@ import StaticCard from "../Components/TraficComp/staticCard";
 import CopyRight from "../Layout/CopyRight";
 import "./style/trafic.css";
 // assets
-import next from "../Assets/Icon material-navigate-next.png";
+// import next from "../Assets/Icon material-navigate-next.png";
 const Traffic = () => {
   return (
     <React.Fragment>
@@ -24,7 +24,6 @@ const Traffic = () => {
             </div>
           </div> */}
           <TraficTable />
-          {/* <StaticCard /> */}
         </div>
         <div className="trafic_right_map">
           <div className="overall_users">

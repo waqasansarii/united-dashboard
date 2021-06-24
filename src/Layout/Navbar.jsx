@@ -22,22 +22,40 @@ const NavbarMain = () => {
           <Nav className="mr-auto secnd_nav_ul">
             <ul>
               <li>
-                <NavLink activeClassName='active_link' className="nav-link" exact to="/">
+                <NavLink
+                  activeClassName="active_link"
+                  className="nav-link"
+                  exact
+                  to="/"
+                >
                   Traffic
                 </NavLink>
               </li>
               <li>
-                <NavLink activeClassName='active_link' className="nav-link" exact to="/analytic">
+                <NavLink
+                  activeClassName="active_link"
+                  className="nav-link"
+                  exact
+                  to="/analytic"
+                >
                   Analytics
                 </NavLink>
               </li>
               <li>
-                <NavLink activeClassName='active_link' className="nav-link" to="/Overview">
+                <NavLink
+                  activeClassName="active_link"
+                  className="nav-link"
+                  to="/Overview"
+                >
                   Overview
                 </NavLink>
               </li>
               <li>
-                <NavLink activeClassName='active_link' className="nav-link" to="/Dashboard">
+                <NavLink
+                  activeClassName="active_link"
+                  className="nav-link"
+                  to="/Dashboard"
+                >
                   Dashboard
                 </NavLink>
               </li>

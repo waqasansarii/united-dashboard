@@ -10,7 +10,7 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Total Countries</h5>
           </div>
-          <div className='donut_chart_container'>
+          <div className="donut_chart_container">
             {/* <Chart
               className="pie_chart"
               width={"200px"}
@@ -51,21 +51,20 @@ const PieChart = () => {
                 {
                   label: "USA",
                   value: 15,
-                  isEmpty:false
+                  isEmpty: false,
                 },
-               
               ]}
-              innerRadius={.55}
+              innerRadius={0.55}
               emptyOffset={1.5}
               toggledOffset={0}
               selectedOffset={0}
-              strokeColor={'transparent'}
-              colors={['#0CB868',"#FB8549","black"]}
+              strokeColor={"transparent"}
+              colors={["#0CB868", "#FB8549", "black"]}
               width={170}
               height={170}
               legend={false}
               style={{ margin: "0px auto" }}
-              className='custom_donut_chart'
+              className="custom_donut_chart"
             />
           </div>
           <div className="legends">
@@ -109,34 +108,7 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Total Visitors</h5>
           </div>
-          <div className='donut_chart_container'>
-            {/* <Chart
-              className="pie_chart"
-              width={"200px"}
-              height={"200px"}
-              chartType="PieChart"
-              style={{ margin: "0px auto" }}
-              //   loader={<div>Loading Chart</div>}
-              data={[
-                ["Task", "Hours per Day"],
-                ["Work", 11],
-                ["Eat", 4],
-                ["Commute", 6],
-              ]}
-              options={{
-                pieHole: 0.4,
-                legend: "none",
-                //   pieSliceText: 'label',
-                pieStartAngle: 100,
-                backgroundColor: "#fafafa",
-                slices: {
-                  0: { color: "#497EFB" },
-                  1: { color: "#FFC507" },
-                  2: { color: "#FF476B" },
-                },
-              }}
-              rootProps={{ "data-testid": "3" }}
-            /> */}
+          <div className="donut_chart_container">
             <DonutChart
               data={[
                 {
@@ -150,21 +122,20 @@ const PieChart = () => {
                 {
                   label: "Fake",
                   value: 15,
-                  isEmpty:false
+                  isEmpty: false,
                 },
-               
               ]}
-              innerRadius={.55}
+              innerRadius={0.55}
               emptyOffset={1.5}
               toggledOffset={0}
               selectedOffset={0}
-              strokeColor={'transparent'}
-              colors={['#497EFB',"#FFC507","#FF476B"]}
+              strokeColor={"transparent"}
+              colors={["#497EFB", "#FFC507", "#FF476B"]}
               width={170}
               height={170}
               legend={false}
               style={{ margin: "0px auto" }}
-              className='custom_donut_chart'
+              className="custom_donut_chart"
             />
           </div>
           <div className="legends">
@@ -208,30 +179,7 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Data Transmitted</h5>
           </div>
-          <div className='donut_chart_container'>
-            {/* <Chart
-              className="pie_chart"
-              width={"200px"}
-              height={"200px"}
-              chartType="PieChart"
-              style={{ margin: "0px auto" }}
-              data={[
-                ["Task", "Hours per Day"],
-                ["Work", 11],
-                ["Eat", 4],
-              ]}
-              options={{
-                pieHole: 0.4,
-                legend: "none",
-                pieStartAngle: 100,
-                backgroundColor: "#fafafa",
-                slices: {
-                  0: { color: "#497EFB" },
-                  1: { color: "#FFC507" },
-                },
-              }}
-              rootProps={{ "data-testid": "3" }}
-            /> */}
+          <div className="donut_chart_container">
             <DonutChart
               data={[
                 {
@@ -241,21 +189,20 @@ const PieChart = () => {
                 {
                   label: "Upload",
                   value: 15,
-                  isEmpty:false
+                  isEmpty: false,
                 },
-               
               ]}
-              innerRadius={.55}
+              innerRadius={0.55}
               emptyOffset={1.5}
               toggledOffset={0}
               selectedOffset={0}
-              strokeColor={'transparent'}
-              colors={["#497EFB","#FFC507"]}
+              strokeColor={"transparent"}
+              colors={["#497EFB", "#FFC507"]}
               width={170}
               height={170}
               legend={false}
               style={{ margin: "0px auto" }}
-              className='custom_donut_chart'
+              className="custom_donut_chart"
             />
           </div>
           <div className="legends two_legend">
@@ -288,34 +235,7 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Total Devices</h5>
           </div>
-          <div className='donut_chart_container'>
-            {/* <Chart
-              className="pie_chart"
-              width={"200px"}
-              height={"200px"}
-              chartType="PieChart"
-              style={{ margin: "0px auto" }}
-              //   loader={<div>Loading Chart</div>}
-              data={[
-                ["Task", "Hours per Day"],
-                ["Work", 11],
-                ["Eat", 4],
-                ["Commute", 6],
-              ]}
-              options={{
-                pieHole: 0.4,
-                legend: "none",
-                //   pieSliceText: 'label',
-                pieStartAngle: 100,
-                backgroundColor: "#fafafa",
-                slices: {
-                  0: { color: "#0AB47A" },
-                  1: { color: "#EDF0F6" },
-                  2: { color: "#FF476B" },
-                },
-              }}
-              rootProps={{ "data-testid": "3" }}
-            /> */}
+          <div className="donut_chart_container">
             <DonutChart
               data={[
                 {
@@ -329,21 +249,20 @@ const PieChart = () => {
                 {
                   label: "Others",
                   value: 15,
-                  isEmpty:false
+                  isEmpty: false,
                 },
-               
               ]}
-              innerRadius={.55}
+              innerRadius={0.55}
               emptyOffset={1.5}
               toggledOffset={0}
               selectedOffset={0}
-              strokeColor={'transparent'}
-              colors={['#0AB47A',"#EDF0F6","#FF476B"]}
+              strokeColor={"transparent"}
+              colors={["#0AB47A", "#EDF0F6", "#FF476B"]}
               width={170}
               height={170}
               legend={false}
               style={{ margin: "0px auto" }}
-              className='custom_donut_chart'
+              className="custom_donut_chart"
             />
           </div>
           <div className="legends">

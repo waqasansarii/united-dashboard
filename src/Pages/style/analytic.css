@@ -2,14 +2,16 @@
   padding: 10px 00px;
   margin-bottom: 0px;
 }
-.main_head,.analytic_piechart,.anayltic_table_md{
+.main_head,
+.analytic_piechart,
+.anayltic_table_md {
   padding-left: 20px;
   padding-right: 20px;
 }
-.visitors_list{
+.visitors_list {
   padding-left: 20px;
 }
-.main_head  h2{
+.main_head h2 {
   font-weight: bold;
 }
 .anayltic_table_md {
@@ -27,11 +29,11 @@
 }
 
 /* analytics pie charts  */
-.donut_chart_container{
+.donut_chart_container {
   display: flex;
   justify-content: center;
 }
-.custom_donut_chart{
+.custom_donut_chart {
   margin: 30px auto !important;
   /* margin-left: 50px !important; */
 }
@@ -59,7 +61,7 @@
   position: absolute;
   z-index: 111;
 }
-.chart_card_head h5{
+.chart_card_head h5 {
   font-weight: 600;
 }
 .legends {
@@ -90,11 +92,11 @@
   /* min-width: 400px; */
   overflow-x: auto;
 }
-.analytic_table_sd{
+.analytic_table_sd {
   height: 50vh;
   overflow: auto;
 }
-.analytic_table_sd::-webkit-scrollbar{
+.analytic_table_sd::-webkit-scrollbar {
   width: 5px;
 }
 .table_analytic_head {
@@ -113,17 +115,14 @@
   font-weight: 600;
 }
 .custom_analytic_table {
-  border: 1px solid rgb(230, 12, 12)  ;
+  border: 1px solid rgb(230, 12, 12);
   border-right: 2px solid red;
   border-radius: 5px;
   margin-bottom: 0px !important;
-  /* border-bottom: none ; */
   border-spacing: 0 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
-  /* border: 0px; */
   text-indent: 0;
-  /* width: 415px; */
   width: 100%;
   min-width: 415px;
   margin-top: 10px;
@@ -131,7 +130,7 @@
   text-align: center;
   overflow-x: auto;
 }
-.custom_analytic_table::-webkit-scrollbar{
+.custom_analytic_table::-webkit-scrollbar {
   width: 5px;
 }
 .custom_analytic_table td {
@@ -144,7 +143,7 @@
 .custom_analytic_table thead {
   text-align: start;
 }
-.time_date>span{
+.time_date > span {
   margin: 0px 3px;
 }
 .Laptop {
@@ -275,7 +274,7 @@
   min-width: 380px;
   margin-left: 20px;
 }
-.bar_chart{
+.bar_chart {
   width: 350px;
   height: 300px;
 }
@@ -284,15 +283,10 @@
   height: 56.8vh;
   width: 40%;
   position: absolute;
-  /* position: relative; */
   top: 50;
   right: 0;
 }
-.copy_right_cont{
-  /* position:static; */
-  bottom: 0px;
-}
-.mob_view_copy{
+.mob_view_copy {
   display: none;
 }
 
@@ -300,14 +294,14 @@
   .visitors_container {
     flex-direction: column;
   }
-  .analytic_map_container{
+  .analytic_map_container {
     position: relative;
   }
-  .mob_view_copy{
+  .mob_view_copy {
     display: block;
     margin-top: 20px;
   }
-  .copy_right_cont{
+  .copy_right_cont {
     display: none;
   }
 
@@ -320,70 +314,72 @@
   }
 }
 @media screen and (max-width: 950px) {
-  .chart_analytic_md{
+  .chart_analytic_md {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .analytic_chart_div{
+  .analytic_chart_div {
     width: 45%;
     margin: 20px 10px;
   }
-  .anayltic_table_md{
+  .anayltic_table_md {
     flex-direction: column;
   }
-  .analytic_table_conatainer{
+  .analytic_table_conatainer {
     width: 100%;
   }
 }
 @media screen and (max-width: 800px) {
-  .visitors_list{
+  .visitors_list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* .visitors_container{
-    height: 190vh;
-  } */
-  .visitor_container{
+  .visitor_container {
     width: 60%;
   }
-  .analysis_bar_chart_container{
+  .analysis_bar_chart_container {
     margin-left: 0px;
     width: 60%;
     margin-top: 20px;
   }
 }
 @media screen and (max-width: 545px) {
-  .analytic_chart_div{
+  .analytic_chart_div {
     width: 80%;
     margin: 20px 0px;
   }
 }
 @media screen and (max-width: 405px) {
-  .visitor_container,.analysis_bar_chart_container{
+  .visitor_container,
+  .analysis_bar_chart_container {
     min-width: 330px;
   }
-  .bar_chart{
+  .bar_chart {
     width: 250px !important;
   }
-  .main_head,.analytic_piechart,.anayltic_table_md{
+  .main_head,
+  .analytic_piechart,
+  .anayltic_table_md {
     padding-left: 8px;
     padding-right: 8px;
   }
-  .visitors_list{
+  .visitors_list {
     padding-left: 0px;
   }
 }
 @media screen and (max-width: 350px) {
-  .visitor_container,.analysis_bar_chart_container{
+  .visitor_container,
+  .analysis_bar_chart_container {
     min-width: 300px;
     padding: 10px;
   }
-  .visitor_container p{
-    font-size: .8rem;
+  .visitor_container p {
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 315px) {
-  .visitor_container,.analysis_bar_chart_container{
+  .visitor_container,
+  .analysis_bar_chart_container {
     min-width: 270px;
     padding: 10px;
   }
