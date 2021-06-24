@@ -1,5 +1,5 @@
 import React from "react";
-import Chart from "react-google-charts";
+// import Chart from "react-google-charts";
 import DonutChart from "react-donut-chart";
 const PieChart = () => {
   return (

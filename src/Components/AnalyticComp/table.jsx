@@ -22,7 +22,7 @@ const AnalyticTable = ({ head, data }) => {
             </thead>
             <tbody>
               {data.map((val, i) => (
-                <tr>
+                <tr key={i}>
                   <td>{val.ip}</td>
                   <td>{val.location}</td>
                   <td>
