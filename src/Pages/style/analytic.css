@@ -1,6 +1,9 @@
 .analytic_container {
   padding: 10px 20px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+}
+.main_head  h2{
+  font-weight: bold;
 }
 .anayltic_table_md {
   display: flex;
@@ -76,7 +79,7 @@
   align-items: center;
 }
 .table_analytic_head > p {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   margin-bottom: 0px;
 }
@@ -193,6 +196,7 @@
   font-size: 0.65rem;
   font-weight: bold;
   margin-top: 8px;
+  margin-right: 3px;
 }
 .visitor_percent h5 {
   color: #00c857;
@@ -245,7 +249,7 @@
 }
 /* map  */
 .analytic_google_map {
-  height: 60vh;
+  height: 56vh;
   width: 40%;
   position: absolute;
   top: 50;

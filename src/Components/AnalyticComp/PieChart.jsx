@@ -24,7 +24,7 @@ const PieChart = () => {
                 ["Commute", 6],
               ]}
               options={{
-                pieHole: 0.5,
+                pieHole: 0.45,
                 legend: "none",
                 //   pieSliceText: 'label',
                 pieStartAngle: 100,
@@ -94,7 +94,7 @@ const PieChart = () => {
                 ["Commute", 6],
               ]}
               options={{
-                pieHole: 0.5,
+                pieHole: 0.45,
                 legend: "none",
                 //   pieSliceText: 'label',
                 pieStartAngle: 100,
@@ -162,7 +162,7 @@ const PieChart = () => {
                 ["Eat", 4],
               ]}
               options={{
-                pieHole: 0.5,
+                pieHole: 0.45,
                 legend: "none",
                 pieStartAngle: 100,
                 backgroundColor: "#fafafa",
@@ -219,7 +219,7 @@ const PieChart = () => {
                 ["Commute", 6],
               ]}
               options={{
-                pieHole: 0.5,
+                pieHole: 0.45,
                 legend: "none",
                 //   pieSliceText: 'label',
                 pieStartAngle: 100,

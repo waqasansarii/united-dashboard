@@ -64,7 +64,7 @@ const BarChart = () => {
               minValue: 0,
             },
             vAxis: {
-              textPosition: "in",
+              textPosition: "out",
               logscale: false,
               minorGridlines: { color: "#fafafa" },
             },
