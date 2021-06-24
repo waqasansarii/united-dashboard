@@ -19,6 +19,15 @@
 }
 
 /* analytics pie charts  */
+.donut_chart_container{
+  display: flex;
+  justify-content: center;
+}
+.custom_donut_chart{
+  margin: 30px auto !important;
+  /* margin-left: 50px !important; */
+}
+
 .chart_analytic_md {
   display: flex;
   justify-content: space-between;

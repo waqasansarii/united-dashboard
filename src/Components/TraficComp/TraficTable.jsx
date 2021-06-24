@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 
 const TraficTable = () => {
   return (
-    <div>
+    <div className='traffic_table_md'>
       <div>
         <div className='table_head'>
           <h3>Traffic Detail</h3>

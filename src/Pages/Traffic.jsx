@@ -11,7 +11,7 @@ const Traffic = () => {
     <React.Fragment>
       <div className="trafic_container">
         <div className="trafic_left_content">
-          <div className="statistics_div">
+          {/* <div className="statistics_div">
             <div className="gnrl_head">
               <h4>General Statistics</h4>
             </div>
@@ -22,7 +22,7 @@ const Traffic = () => {
             <div className="number_ofUser">
               <h1>834,646,864</h1>
             </div>
-          </div>
+          </div> */}
           <TraficTable />
           <StaticCard />
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Chart from "react-google-charts";
+import DonutChart from "react-donut-chart";
 const PieChart = () => {
   return (
     <div className="chart_analytics_container">
@@ -9,8 +10,8 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Total Countries</h5>
           </div>
-          <div>
-            <Chart
+          <div className='donut_chart_container'>
+            {/* <Chart
               className="pie_chart"
               width={"200px"}
               height={"200px"}
@@ -36,6 +37,35 @@ const PieChart = () => {
                 },
               }}
               rootProps={{ "data-testid": "3" }}
+            /> */}
+            <DonutChart
+              data={[
+                {
+                  label: "USA",
+                  value: 50,
+                },
+                {
+                  label: "USA",
+                  value: 35,
+                },
+                {
+                  label: "USA",
+                  value: 15,
+                  isEmpty:false
+                },
+               
+              ]}
+              innerRadius={.55}
+              emptyOffset={1.5}
+              toggledOffset={0}
+              selectedOffset={0}
+              strokeColor={'transparent'}
+              colors={['#0CB868',"#FB8549","black"]}
+              width={170}
+              height={170}
+              legend={false}
+              style={{ margin: "0px auto" }}
+              className='custom_donut_chart'
             />
           </div>
           <div className="legends">
@@ -79,8 +109,8 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Total Visitors</h5>
           </div>
-          <div>
-            <Chart
+          <div className='donut_chart_container'>
+            {/* <Chart
               className="pie_chart"
               width={"200px"}
               height={"200px"}
@@ -106,6 +136,35 @@ const PieChart = () => {
                 },
               }}
               rootProps={{ "data-testid": "3" }}
+            /> */}
+            <DonutChart
+              data={[
+                {
+                  label: "Bots",
+                  value: 50,
+                },
+                {
+                  label: "Real",
+                  value: 35,
+                },
+                {
+                  label: "Fake",
+                  value: 15,
+                  isEmpty:false
+                },
+               
+              ]}
+              innerRadius={.55}
+              emptyOffset={1.5}
+              toggledOffset={0}
+              selectedOffset={0}
+              strokeColor={'transparent'}
+              colors={['#497EFB',"#FFC507","#FF476B"]}
+              width={170}
+              height={170}
+              legend={false}
+              style={{ margin: "0px auto" }}
+              className='custom_donut_chart'
             />
           </div>
           <div className="legends">
@@ -149,8 +208,8 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Data Transmitted</h5>
           </div>
-          <div>
-            <Chart
+          <div className='donut_chart_container'>
+            {/* <Chart
               className="pie_chart"
               width={"200px"}
               height={"200px"}
@@ -172,6 +231,31 @@ const PieChart = () => {
                 },
               }}
               rootProps={{ "data-testid": "3" }}
+            /> */}
+            <DonutChart
+              data={[
+                {
+                  label: "Download",
+                  value: 35,
+                },
+                {
+                  label: "Upload",
+                  value: 15,
+                  isEmpty:false
+                },
+               
+              ]}
+              innerRadius={.55}
+              emptyOffset={1.5}
+              toggledOffset={0}
+              selectedOffset={0}
+              strokeColor={'transparent'}
+              colors={["#497EFB","#FFC507"]}
+              width={170}
+              height={170}
+              legend={false}
+              style={{ margin: "0px auto" }}
+              className='custom_donut_chart'
             />
           </div>
           <div className="legends two_legend">
@@ -204,8 +288,8 @@ const PieChart = () => {
           <div className="chart_card_head">
             <h5>Total Devices</h5>
           </div>
-          <div>
-            <Chart
+          <div className='donut_chart_container'>
+            {/* <Chart
               className="pie_chart"
               width={"200px"}
               height={"200px"}
@@ -231,6 +315,35 @@ const PieChart = () => {
                 },
               }}
               rootProps={{ "data-testid": "3" }}
+            /> */}
+            <DonutChart
+              data={[
+                {
+                  label: "Desktop",
+                  value: 50,
+                },
+                {
+                  label: "Laptop",
+                  value: 35,
+                },
+                {
+                  label: "Others",
+                  value: 15,
+                  isEmpty:false
+                },
+               
+              ]}
+              innerRadius={.55}
+              emptyOffset={1.5}
+              toggledOffset={0}
+              selectedOffset={0}
+              strokeColor={'transparent'}
+              colors={['#0AB47A',"#EDF0F6","#FF476B"]}
+              width={170}
+              height={170}
+              legend={false}
+              style={{ margin: "0px auto" }}
+              className='custom_donut_chart'
             />
           </div>
           <div className="legends">

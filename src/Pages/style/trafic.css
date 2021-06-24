@@ -1,9 +1,10 @@
 .trafic_container {
   display: flex;
   /* justify-content: center; */
+  align-items: center;
 }
 .trafic_left_content {
-  width: 40%;
+  width: 47%;
   padding-left: 30px;
 }
 .statistics_div{
@@ -30,7 +31,7 @@
 }
 .trafic_right_map{
     margin-top: 30px;
-    height: 100vh;
+    height: 97vh;
     margin-bottom: 50px;
 }
 .overall_users{
@@ -56,6 +57,9 @@
 }
 
 /* trafic table  */
+.traffic_table_md{
+    overflow-x: auto;
+}
 .custom_table {
   border: none !important;
   border-bottom: none !important;
@@ -66,8 +70,10 @@
   text-indent: 0;
   width: 100%;
   margin-top: 10px;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: center;
+  min-width: 500px;
+  overflow-x: auto;
 }
 .custom_table th{
     padding-left: 0px !important;
@@ -101,7 +107,7 @@
 /* statistics card  */
 .statistics_card_md{
     display: flex;
-    margin-top: 30px;
+    margin-top: 60px;
     /* margin-left: 60px; */
 }
 .statistics_card{
@@ -110,7 +116,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 30px 25px;
+    padding: 20px 13px;
     border-radius: 18px;
     text-align: center;
     margin: 0px 5px;
@@ -151,6 +157,7 @@
     .trafic_container{
         /* flex-wrap: wrap; */
         flex-direction: column;
+        align-items: inherit;
     }
     .trafic_right_map{
         position: relative;
@@ -171,6 +178,10 @@
     }
     .statistics_card_md{
         margin-left: 50px;
+        margin-top: 30px;
+    }
+    .trafic_right_map{
+        margin-bottom: 30px;
     }
 }
 
