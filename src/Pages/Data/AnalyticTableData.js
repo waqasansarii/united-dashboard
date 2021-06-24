@@ -5,7 +5,7 @@ export const analyticTableData = [
         os:'Desktop',
         time:'20:12',
         date:'6/6/2021',
-        type:'WAN',
+        type:'Bot',
         
     },
     {
@@ -14,7 +14,7 @@ export const analyticTableData = [
         os:'Mobile',
         time:'20:12',
         date:'6/6/2021',
-        type:'LAN'
+        type:'Real'
     },
     {
         ip:'123-435',
@@ -22,7 +22,7 @@ export const analyticTableData = [
         os:'Laptop',
         time:'20:12',
         date:'6/6/2021',
-        type:'WAN'
+        type:'Bot'
     },
     {
         ip:'321-435',
@@ -30,7 +30,7 @@ export const analyticTableData = [
         os:'Tablet',
         time:'20:12',
         date:'6/6/2021',
-        type:'LAN'
+        type:'Real'
     },
     {
         ip:'123-435',
@@ -38,7 +38,7 @@ export const analyticTableData = [
         os:'Desktop',
         time:'20:12',
         date:'6/6/2021',
-        type:'WAN'
+        type:'Bot'
     },
     {
         ip:'321-435',
@@ -46,7 +46,7 @@ export const analyticTableData = [
         os:'Mobile',
         time:'20:12',
         date:'6/6/2021',
-        type:'LAN'
+        type:'Bot'
     },
     {
         ip:'123-435',
@@ -54,7 +54,7 @@ export const analyticTableData = [
         os:'Laptop',
         time:'20:12',
         date:'6/6/2021',
-        type:'WAN'
+        type:'Real'
     },
     {
         ip:'321-435',
@@ -62,6 +62,6 @@ export const analyticTableData = [
         os:'Tablet',
         time:'20:12',
         date:'6/6/2021',
-        type:'LAN'
+        type:'Real'
     },
 ]

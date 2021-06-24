@@ -11,7 +11,7 @@ const BarChart = () => {
     return () => window.removeEventListener("resize", updateWidthAndHeight);
   }, []);
   let [bar] = useState(350);
-  if (widht < 400) {
+  if (widht < 410) {
     bar = 270;
   }
   if (widht < 320) {

@@ -3,7 +3,7 @@ import BarChart from "../Components/AnalyticComp/BarChart";
 import PieChart from "../Components/AnalyticComp/PieChart";
 import AnalyticTable from "../Components/AnalyticComp/table";
 import Visitors from "../Components/AnalyticComp/Visitors";
-import {analyticTableData} from './Data/AnalyticTableData'
+import { analyticTableData } from "./Data/AnalyticTableData";
 import SimpleMap from "../Components/Map";
 import CopyRight from "../Layout/CopyRight";
 import "./style/analytic.css";
@@ -31,9 +31,14 @@ const Analytic = () => {
           <div className="analytic_map_container">
             <SimpleMap className="analytic_google_map" />
           </div>
+          <div className="mob_view_copy">
+            <CopyRight />
+          </div>
         </div>
       </div>
-      <CopyRight />
+      <div className="copy_right_cont">
+        <CopyRight />
+      </div>
     </React.Fragment>
   );
 };

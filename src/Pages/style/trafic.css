@@ -4,7 +4,7 @@
   /* align-items: center; */
 }
 .trafic_left_content {
-  width: 47%;
+  width: 52%;
   padding-left: 30px;
 }
 .statistics_div{
@@ -36,13 +36,15 @@
 }
 .overall_users{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     bottom: -110px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin-left: 0px;
     right: 10px;
     z-index: 9999;
+    
 }
 .overall_users p,.overall_users h5{
    margin-bottom: 5px;
@@ -59,7 +61,7 @@
 /* trafic table  */
 
 .trafic_table_sd{
-    height: 100vh;
+    height: 120vh;
     overflow: auto;
 }
 .trafic_table_sd::-webkit-scrollbar{
@@ -103,7 +105,7 @@
     justify-content: space-between;
     padding: 0px 20px;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .table_head>p{
@@ -121,15 +123,16 @@
 /* .trafic_right_map{
     position: relative;
 } */
-.statistic_card_{
+/* .statistic_card_{
     position: absolute;
     bottom: -280px;
     right: 10px;
-}
+} */
 .statistics_card_md{
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     /* margin-left: 60px; */
 }
 .statistics_card{
@@ -195,9 +198,9 @@
     .trafic_right_map{
         position: relative;
     }
-    .overall_users{
+    /* .overall_users{
         bottom: 140px;
-    }
+    } */
     .google_map_md{
         width: 100%;
     }
@@ -210,8 +213,8 @@
         padding: 15px 10px;
     }
     .statistics_card_md{
-        margin-left: 50px;
-        margin-top: 30px;
+        /* margin-left: 50px; */
+        margin-top: 10px;
     }
     .trafic_right_map{
         margin-bottom: 30px;

@@ -94,6 +94,27 @@ const data = [
     useragent: "Ali",
     type: "LAN",
   },
+  {
+    ip: "123",
+    os: "PC",
+    time: "2hr",
+    useragent: "Ali",
+    type: "LAN",
+  },
+  {
+    ip: "123",
+    os: "PC",
+    time: "2hr",
+    useragent: "Ali",
+    type: "LAN",
+  },
+  {
+    ip: "123",
+    os: "PC",
+    time: "2hr",
+    useragent: "Ali",
+    type: "LAN",
+  },
 ];
 
 const TraficTable = () => {
@@ -101,7 +122,7 @@ const TraficTable = () => {
     <div className="traffic_table_md">
       <div>
         <div className="table_head">
-          <h3>Traffic Detail</h3>
+          <h3>Traffic Stream</h3>
           <p>See all</p>
         </div>
         <div className="trafic_table_sd">
