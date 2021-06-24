@@ -113,12 +113,15 @@
   font-weight: 600;
 }
 .custom_analytic_table {
-  border: none !important;
-  border-bottom: none !important;
+  border: 1px solid rgb(230, 12, 12)  ;
+  border-right: 2px solid red;
+  border-radius: 5px;
+  margin-bottom: 0px !important;
+  /* border-bottom: none ; */
   border-spacing: 0 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
-  border: 0px;
+  /* border: 0px; */
   text-indent: 0;
   /* width: 415px; */
   width: 100%;
@@ -136,6 +139,7 @@
   font-weight: 600;
   padding-top: 15px;
   padding-bottom: 15px;
+  /* border: 1px solid gainsboro; */
 }
 .custom_analytic_table thead {
   text-align: start;
