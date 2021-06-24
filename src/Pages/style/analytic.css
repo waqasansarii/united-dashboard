@@ -1,6 +1,6 @@
 .analytic_container {
   padding: 10px 20px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 .main_head  h2{
   font-weight: bold;
@@ -249,7 +249,7 @@
 }
 /* map  */
 .analytic_google_map {
-  height: 56vh;
+  height: 56.5vh;
   width: 40%;
   position: absolute;
   top: 50;
@@ -259,7 +259,7 @@
 @media screen and (max-width: 1325px) {
   .visitors_container {
     flex-direction: column;
-    height: 125vh;
+    height: 130vh;
   }
   
   .analytic_google_map {
