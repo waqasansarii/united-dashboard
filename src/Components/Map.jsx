@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import GoogleMapReact from "google-map-react";
 import useSupercluster from "use-supercluster";
-import { mapData } from "../Pages/mapData";
+import { mapData } from "../Pages/Data/mapData";
 import { mapStyle } from "./mapStyle";
 import Marker from "./Marker";
 import "./Style/map.css";

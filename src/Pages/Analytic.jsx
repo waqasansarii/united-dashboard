@@ -3,6 +3,7 @@ import BarChart from "../Components/AnalyticComp/BarChart";
 import PieChart from "../Components/AnalyticComp/PieChart";
 import AnalyticTable from "../Components/AnalyticComp/table";
 import Visitors from "../Components/AnalyticComp/Visitors";
+import {analyticTableData} from './Data/AnalyticTableData'
 import SimpleMap from "../Components/Map";
 import CopyRight from "../Layout/CopyRight";
 import "./style/analytic.css";
@@ -18,9 +19,9 @@ const Analytic = () => {
           <PieChart />
         </div>
         <div className="anayltic_table_md">
-          <AnalyticTable head="Frequent User" />
-          <AnalyticTable head="Frequent Bots" />
-          <AnalyticTable head="Transmitted User" />
+          <AnalyticTable head="Frequent User" data={analyticTableData} />
+          <AnalyticTable head="Frequent Bots" data={analyticTableData} />
+          <AnalyticTable head="Transmitted User" data={analyticTableData} />
         </div>
         <div className="visitors_container">
           <div className="visitors_list">

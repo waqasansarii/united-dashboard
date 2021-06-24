@@ -82,6 +82,13 @@
   /* min-width: 400px; */
   overflow-x: auto;
 }
+.analytic_table_sd{
+  height: 50vh;
+  overflow: auto;
+}
+.analytic_table_sd::-webkit-scrollbar{
+  width: 5px;
+}
 .table_analytic_head {
   display: flex;
   justify-content: space-between;
@@ -125,13 +132,16 @@
 .custom_analytic_table thead {
   text-align: start;
 }
-.laptop {
+.time_date>span{
+  margin: 0px 3px;
+}
+.Laptop {
   background-color: #ffeedb !important;
   border-radius: 20px;
   color: #ff8800;
   padding: 5px 12px;
 }
-.mobile {
+.Mobile {
   background-color: #dbe0ff !important;
   color: #0023ff;
   border-radius: 20px;
@@ -141,13 +151,13 @@
 .custom_analytic_table td {
   background-color: #fafafa;
 }
-.tablet {
+.Tablet {
   color: #00c857;
   border-radius: 20px;
   background-color: #d2f6e2;
   padding: 5px 15px;
 }
-.desktop {
+.Desktop {
   color: #ff0000;
   border-radius: 20px;
   background-color: #ffd4d4 !important;

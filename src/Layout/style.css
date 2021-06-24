@@ -74,4 +74,16 @@
     .nav-link{
         padding-left: 0px !important;
     }
+    .secnd_nav_ul ul{
+        flex-direction: column;
+    }
+    .secnd_nav_ul ul>li .active_link:after{
+        width: 9%;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:330px){
+    .copyRight p{
+        font-size: .8rem;
+    }
 }

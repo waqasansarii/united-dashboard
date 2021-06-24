@@ -1,7 +1,7 @@
 .trafic_container {
   display: flex;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
 }
 .trafic_left_content {
   width: 47%;
@@ -31,7 +31,7 @@
 }
 .trafic_right_map{
     margin-top: 30px;
-    height: 97vh;
+    height: 120vh;
     margin-bottom: 50px;
 }
 .overall_users{
@@ -57,12 +57,17 @@
 }
 
 /* trafic table  */
-.traffic_table_md{
-    overflow-x: auto;
+
+.trafic_table_sd{
+    height: 100vh;
+    overflow: auto;
+}
+.trafic_table_sd::-webkit-scrollbar{
+    width: 5px;
 }
 .custom_table {
-  border: none !important;
-  border-bottom: none !important;
+  border: none ;
+  border-bottom: none ;
   border-spacing: 0 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
@@ -73,7 +78,7 @@
   font-size: 1em;
   text-align: center;
   min-width: 500px;
-  overflow-x: auto;
+  /* overflow: auto; */
 }
 .custom_table th{
     padding-left: 0px !important;
@@ -81,9 +86,17 @@
 .table > :not(caption) > * > * {
   border-bottom-width: inherit !important;
 }
+.custom_table a{
+    text-decoration: none;
+    color: inherit;
+    width:unset;
+}
 .custom_table td {
   background-color: #fafafa;
   padding-left: 0px !important;
+}
+.custom_table tr{
+    cursor: pointer;
 }
 .table_head{
     display: flex;
@@ -105,9 +118,18 @@
 }
 
 /* statistics card  */
+/* .trafic_right_map{
+    position: relative;
+} */
+.statistic_card_{
+    position: absolute;
+    bottom: -280px;
+    right: 10px;
+}
 .statistics_card_md{
     display: flex;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     /* margin-left: 60px; */
 }
 .statistics_card{
@@ -116,7 +138,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 20px 13px;
+    padding: 15px 13px;
     border-radius: 18px;
     text-align: center;
     margin: 0px 5px;
@@ -124,11 +146,18 @@
     z-index: 11111;
 }
 .card_body_t{
-  margin-top: 30px;
+  margin-top: 20px;
+}
+.statistics_card img{
+    width: 30px;
+    height: 30px;
 }
 .statistics_card p{
-    font-size: .75rem;
+    font-size: .65rem;
     margin-bottom: 0px;
+}
+.statistics_card h5{
+    font-size: .9rem;
 }
 .purple{
     background-color: #8675FF;
@@ -146,11 +175,15 @@
     }
 } */
 @media screen and (max-width:1150px){
-    /* .statistics_card_md{
-        margin-left: 10px;
-    } */
+    
     .statistics_card{
-        padding: 30px 10px;
+        padding: 20px 10px;
+    }
+    .users>h5{
+        font-size: 1rem;
+    }
+    .users>p{
+        font-size: .8rem;
     }
 }
 @media screen and (max-width:991px){
@@ -163,7 +196,7 @@
         position: relative;
     }
     .overall_users{
-        bottom: -10px;
+        bottom: 140px;
     }
     .google_map_md{
         width: 100%;
@@ -174,7 +207,7 @@
         padding-right: 15px;
     }
     .statistics_card{
-        padding: 30px 20px;
+        padding: 15px 10px;
     }
     .statistics_card_md{
         margin-left: 50px;
@@ -182,6 +215,9 @@
     }
     .trafic_right_map{
         margin-bottom: 30px;
+    }
+    .statistic_card_{
+        bottom: -15px;
     }
 }
 
@@ -197,21 +233,27 @@
     }
 }
 @media screen and (max-width:520px){
-    .statistics_card{
+    /* .statistics_card{
         padding: 30px 10px;
-    }
+    } */
     .statistics_card img{
         width: 30px;
         height: 30px;
+    }
+    .overall_users{
+        right: 2px;
+    }
+    .overall_users>div{
+        margin: 0px 5px;
     }
     .overall_users p{
         font-size: .7rem;
     }
     .overall_users h5{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .statistics_card h5{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .trafic_left_content{
         width: 100%;
@@ -220,15 +262,27 @@
     }
 }
 @media screen and (max-width:370px){
-    .statistics_card_md{
-        flex-wrap: wrap;
-        justify-content: center;
+    .statistic_card_{
+        bottom: 10px;
+    }
+    .trafic_right_map{
+        margin-bottom: 5px;
     }
     .statistics_card{
-        padding: 30px 15px;
+        padding: 15px 8px;
     }
-    .orange{
-        margin-top: 15px;
+    .statistics_card>.card_body_t{
+        margin-top: 5px;
+    }
+    .statistics_card p{
+        font-size: .6rem;
+    }
+    .statistics_card h5{
+        font-size: .8rem;
+    }
+    .statistics_card img{
+        width: 20px;
+        height: 20px;
     }
     .overall_users >div{
         margin: 0px 5px;
@@ -237,8 +291,17 @@
         right: 5px;
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:325px){
     .overall_users h5{
-        font-size: .9rem;
+        font-size: .75rem;
+    }
+    .overall_users p{
+        font-size: .6rem;
+    }
+    .statistics_card h5{
+        font-size: .7rem;
+    }
+    .statistics_card p{
+        font-size: .6rem;
     }
 }
