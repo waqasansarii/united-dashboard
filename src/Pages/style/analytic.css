@@ -115,8 +115,8 @@
   font-weight: 600;
 }
 .custom_analytic_table {
-  border: 1px solid rgb(230, 12, 12);
-  border-right: 2px solid red;
+  border: 2px solid rgb(230, 12, 12);
+  border-right: 3px solid red;
   border-radius: 5px;
   margin-bottom: 0px !important;
   border-spacing: 0 10px;
