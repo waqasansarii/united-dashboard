@@ -84,11 +84,18 @@
   width: unset;
 }
 .custom_table td {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   padding-left: 0px !important;
 }
 .custom_table tr {
   cursor: pointer;
+}
+.red td{
+  background-color: rgb(252, 119, 119);
+  color: white;
+}
+.lightBlue td{
+  background-color: lightblue;
 }
 .table_head {
   display: flex;

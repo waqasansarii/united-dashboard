@@ -138,12 +138,16 @@ const TraficTable = () => {
             </thead>
             <tbody>
               {data.map((val, i) => (
-                <tr key={i} onClick={()=>alert('clicked')}>
-                    <td> {val.ip}</td>
-                    <td>{val.os}</td>
-                    <td>{val.time}</td>
-                    <td>{val.useragent}</td>
-                    <td>{val.type}</td>
+                <tr
+                  key={i}
+                  onClick={() => alert("clicked")}
+                  className={val.type==='Bot'?'red':'lightBlue'}
+                >
+                  <td> {val.ip}</td>
+                  <td>{val.os}</td>
+                  <td>{val.time}</td>
+                  <td>{val.useragent}</td>
+                  <td>{val.type}</td>
                 </tr>
               ))}
             </tbody>

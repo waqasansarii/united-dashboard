@@ -17,6 +17,9 @@ const BarChart = () => {
   if (widht < 320) {
     bar = 250;
   }
+  if (widht > 1320) {
+    bar = '100%';
+  }
 
   return (
     <div className="analysis_bar_chart_container">

@@ -30,3 +30,7 @@
     top: 50;
     right: 0;
 }
+.google_map_md>div>div{
+    
+    border-radius: 20px !important; 
+}

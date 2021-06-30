@@ -22,16 +22,14 @@ const AnalyticTable = ({ head, data }) => {
             </thead>
             <tbody>
               {data.map((val, i) => (
-                <tr key={i}>
+                <tr
+                  key={i}
+                  className={val.type === "Bot" ? "red" : "lightBlue"}
+                >
                   <td>{val.ip}</td>
                   <td>{val.location}</td>
                   <td>
-                    <span
-                      className={val.os}
-                    >
-                      {" "}
-                      {val.os}
-                    </span>
+                    <span className={val.os}> {val.os}</span>
                   </td>
                   <td className="time_date">
                     <span> {val.date}</span>
