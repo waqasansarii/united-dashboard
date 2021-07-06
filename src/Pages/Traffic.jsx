@@ -44,6 +44,7 @@ const Traffic = () => {
               <h5>257,5840</h5>
             </div>
           </div>
+          {/* data tiny three cards  */}
           <div className="statistic_card_">
             <StaticCard />
           </div>

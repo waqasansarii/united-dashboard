@@ -31,11 +31,13 @@ const Analytic = () => {
           <div className="analytic_map_container">
             <SimpleMap className="analytic_google_map" />
           </div>
+          {/* mob view copy right   */}
           <div className="mob_view_copy">
             <CopyRight />
           </div>
         </div>
       </div>
+      {/* desktop view copy right  */}
       <div className="copy_right_cont">
         <CopyRight />
       </div>

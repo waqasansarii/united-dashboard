@@ -11,33 +11,6 @@ const PieChart = () => {
             <h5>Total Countries</h5>
           </div>
           <div className="donut_chart_container">
-            {/* <Chart
-              className="pie_chart"
-              width={"200px"}
-              height={"200px"}
-              chartType="PieChart"
-              style={{ margin: "0px auto" }}
-              //   loader={<div>Loading Chart</div>}
-              data={[
-                ["Task", "Hours per Day"],
-                ["Work", 11],
-                ["Eat", 4],
-                ["Commute", 6],
-              ]}
-              options={{
-                pieHole: 0.4,
-                legend: "none",
-                //   pieSliceText: 'label',
-                pieStartAngle: 100,
-                backgroundColor: "#fafafa",
-                slices: {
-                  0: { color: "#0CB868" },
-                  1: { color: "#FB8549" },
-                  2: { color: "black" },
-                },
-              }}
-              rootProps={{ "data-testid": "3" }}
-            /> */}
             <DonutChart
               data={[
                 {
