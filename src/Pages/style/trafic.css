@@ -54,20 +54,24 @@
 .trafic_table_sd {
   height: 120vh;
   overflow: auto;
+  padding-left: 5px;
+  margin-top: 15px;
 }
 .trafic_table_sd::-webkit-scrollbar {
   width: 5px;
 }
 .custom_table {
-  border: none;
-  border-bottom: none;
+  border-radius: 8px;
+  border: 1px dashed #013220;
+  /* border: none; */
+  /* border-bottom: none; */
   border-spacing: 0 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
-  border: 0px;
+  /* border: 0px; */
   text-indent: 0;
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-size: 1em;
   text-align: center;
   min-width: 500px;
@@ -238,9 +242,22 @@
     padding-right: 8px;
   }
 }
+@media screen and (max-width: 450px) {
+  .statistics_card_md {
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+  .statistics_card_md > div:nth-child(4) {
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 370px) {
   .statistic_card_ {
     bottom: 10px;
+  }
+  .statistics_card {
+    width: max-content;
   }
   .trafic_right_map {
     margin-bottom: 5px;

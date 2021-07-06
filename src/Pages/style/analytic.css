@@ -53,6 +53,7 @@
   padding-bottom: 10px;
   margin: 40px 0px;
   min-width: 235px;
+  border: 1px dotted #013220;
 }
 .pie_chart {
   margin: 0px auto !important;
@@ -96,6 +97,10 @@
 .analytic_table_sd {
   height: 50vh;
   overflow: auto;
+  border: 1px dotted #013220;
+  padding-right: 0px !important;
+  padding-left: 5px;
+  border-radius: 8px;
 }
 .analytic_table_sd::-webkit-scrollbar {
   width: 5px;
@@ -143,6 +148,9 @@
 }
 .custom_analytic_table thead {
   text-align: start;
+}
+.custom_analytic_table th {
+  font-weight: bold !important;
 }
 .time_date > span {
   margin: 0px 3px;
@@ -198,7 +206,8 @@
   padding: 15px;
   width: 26%;
   min-width: 370px;
-  height: max-content;
+  border: 1px dotted #013220;
+  height: 57vh;
 }
 .visitor_head {
   display: flex;
@@ -271,14 +280,15 @@
   box-shadow: 0px 0px 5px gainsboro;
   border-radius: 10px;
   padding: 15px;
+  border: 1px dotted #013220;
   width: 27%;
   min-width: 380px;
   margin-left: 20px;
   /* min-height: 60vh; */
   /* max-height: 40vh; */
-  height: max-content;
+  height: 57vh;
   /* margin-bottom: 60px; */
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 .analysis_barChart_md > div:nth-child(2) {
   margin: 0px auto !important;
@@ -289,7 +299,7 @@
 }
 /* map  */
 .analytic_google_map {
-  height: 56.8vh;
+  height: 57vh;
   width: 40%;
   position: absolute;
   top: 50;

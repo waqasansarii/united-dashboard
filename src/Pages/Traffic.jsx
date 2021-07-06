@@ -26,7 +26,7 @@ const Traffic = () => {
           <TraficTable />
         </div>
         <div className="trafic_right_map">
-          <div className="overall_users">
+          {/* <div className="overall_users">
             <div className="users">
               <p>Total users</p>
               <h5>257,5840</h5>
@@ -43,7 +43,7 @@ const Traffic = () => {
               <p>Usage</p>
               <h5>257,5840</h5>
             </div>
-          </div>
+          </div> */}
           {/* data tiny three cards  */}
           <div className="statistic_card_">
             <StaticCard />
@@ -51,7 +51,9 @@ const Traffic = () => {
           <SimpleMap className="google_map_md" />
         </div>
       </div>
-      <CopyRight />
+      <div className="copyR_tr_md">
+        <CopyRight />
+      </div>
     </React.Fragment>
   );
 };
