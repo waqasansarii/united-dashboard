@@ -280,8 +280,7 @@
   /* margin-bottom: 60px; */
   padding-bottom: 30px;
 }
-.analysis_barChart_md>div:nth-child(2){
-
+.analysis_barChart_md > div:nth-child(2) {
   margin: 0px auto !important;
 }
 .bar_chart {
@@ -296,7 +295,7 @@
   top: 50;
   right: 0;
 }
-.analytic_google_map>div>div{
+.analytic_google_map > div > div {
   border-radius: 20px;
 }
 .mob_view_copy {

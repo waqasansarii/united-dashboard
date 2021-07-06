@@ -90,11 +90,11 @@
 .custom_table tr {
   cursor: pointer;
 }
-.red td{
+.red td {
   background-color: rgb(252, 119, 119);
   color: white;
 }
-.lightBlue td{
+.lightBlue td {
   background-color: lightblue;
 }
 .table_head {
