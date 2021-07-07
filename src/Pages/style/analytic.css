@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .analytic_container {
   padding: 10px 00px;
   margin-bottom: 0px;
@@ -15,24 +22,36 @@
   font-weight: bold;
 }
 .anayltic_table_md {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .visitors_container {
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
   height: 55vh;
 }
 .visitors_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
 /* analytics pie charts  */
 .donut_chart_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .custom_donut_chart {
   margin: 30px auto !important;
@@ -40,20 +59,26 @@
 }
 
 .chart_analytic_md {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .analytic_chart_div {
   width: 24%;
   background-color: #fafafa;
-  box-shadow: 0px 0px 10px gainsboro;
+  -webkit-box-shadow: 0px 0px 10px gainsboro;
+          box-shadow: 0px 0px 10px gainsboro;
   border-radius: 15px;
   position: relative;
   padding: 15px;
   padding-bottom: 10px;
   margin: 40px 0px;
   min-width: 235px;
-  border: 1px dotted #013220;
+  border: 8px inset #013220;
+  /* border: 1px dotted #013220; */
 }
 .pie_chart {
   margin: 0px auto !important;
@@ -70,9 +95,15 @@
   position: absolute;
   bottom: 10px;
   width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .two_legend {
   width: 60%;
@@ -80,8 +111,12 @@
   left: 60px;
 }
 .legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .legend > p {
   font-size: 0.8rem;
@@ -97,18 +132,26 @@
 .analytic_table_sd {
   height: 50vh;
   overflow: auto;
-  border: 1px dotted #013220;
+  border: 6px inset #013220;
+  /* border: 1px dotted #013220; */
   padding-right: 0px !important;
   padding-left: 5px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 .analytic_table_sd::-webkit-scrollbar {
   width: 5px;
 }
 .table_analytic_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .table_analytic_head > p {
   font-size: 0.75rem;
@@ -131,7 +174,7 @@
   text-indent: 0;
   width: 100%;
   min-width: 415px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-size: 0.9em;
   text-align: center;
   overflow-x: auto;
@@ -149,8 +192,9 @@
 .custom_analytic_table thead {
   text-align: start;
 }
-.custom_analytic_table th {
-  font-weight: bold !important;
+.custom_analytic_table thead th {
+  font-weight: 700 !important;
+  font-size: 1rem;
 }
 .time_date > span {
   margin: 0px 3px;
@@ -201,26 +245,38 @@
 
 .visitor_container {
   background-color: #fafafa;
-  box-shadow: 0px 0px 5px gainsboro;
+  -webkit-box-shadow: 0px 0px 5px gainsboro;
+          box-shadow: 0px 0px 5px gainsboro;
   border-radius: 10px;
   padding: 15px;
   width: 26%;
   min-width: 370px;
-  border: 1px dotted #013220;
+  border: 6px inset #013220;
+  /* border: 1px dotted #013220; */
   height: 57vh;
 }
 .visitor_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .visitor_head p,
 .visitor_head h5 {
   margin-bottom: 0px;
 }
 .visitor_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .visitor_img h5 {
   margin-left: 10px;
@@ -230,8 +286,12 @@
   width: 40px;
 }
 .visitor_percent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .visitor_percent p {
   font-size: 0.65rem;
@@ -256,14 +316,24 @@
   margin-bottom: 0px;
 }
 .visitor_ul > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 15px;
 }
 .visitorName {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .visitor_ul > li > p {
   font-weight: 600;
@@ -277,10 +347,12 @@
 /* analysis bar chart  */
 .analysis_bar_chart_container {
   background-color: #fafafa;
-  box-shadow: 0px 0px 5px gainsboro;
+  -webkit-box-shadow: 0px 0px 5px gainsboro;
+          box-shadow: 0px 0px 5px gainsboro;
   border-radius: 10px;
   padding: 15px;
-  border: 1px dotted #013220;
+  border: 6px inset #013220;
+  /* border: 1px dotted #013220; */
   width: 27%;
   min-width: 380px;
   margin-left: 20px;
@@ -314,7 +386,10 @@
 
 @media screen and (max-width: 1325px) {
   .visitors_container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .analytic_map_container {
     position: relative;
@@ -337,15 +412,21 @@
 }
 @media screen and (max-width: 950px) {
   .chart_analytic_md {
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .analytic_chart_div {
     width: 45%;
     margin: 20px 10px;
   }
   .anayltic_table_md {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .analytic_table_conatainer {
     width: 100%;
@@ -353,8 +434,11 @@
 }
 @media screen and (max-width: 800px) {
   .visitors_list {
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .visitor_container {
     width: 60%;

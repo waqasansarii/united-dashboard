@@ -1,4 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .trafic_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .trafic_left_content {
@@ -13,8 +22,12 @@
   font-weight: bold;
 }
 .alluser {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px 0px;
   margin-bottom: 5px;
 }
@@ -32,8 +45,12 @@
   margin-bottom: 50px;
 }
 .overall_users {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 0px;
 }
 .overall_users p,
@@ -79,6 +96,8 @@
 }
 .custom_table th {
   padding-left: 0px !important;
+  font-size: 1.2rem;
+  font-weight: 700 !important;
 }
 .table > :not(caption) > * > * {
   border-bottom-width: inherit !important;
@@ -103,10 +122,16 @@
   background-color: lightblue;
 }
 .table_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0px 20px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 30px;
 }
 
@@ -123,6 +148,8 @@
 /* statistics card  */
 
 .statistics_card_md {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -130,10 +157,19 @@
 }
 .statistics_card {
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 15px 13px;
   border-radius: 18px;
   text-align: center;
@@ -177,8 +213,13 @@
 }
 @media screen and (max-width: 991px) {
   .trafic_container {
-    flex-direction: column;
-    align-items: inherit;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
   }
   .trafic_right_map {
     position: relative;
@@ -245,8 +286,11 @@
 }
 @media screen and (max-width: 450px) {
   .statistics_card_md {
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     /* flex-direction: column; */
   }
   .statistics_card_md > div:nth-child(4) {
@@ -258,6 +302,8 @@
     bottom: 10px;
   }
   .statistics_card {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
   }
   .trafic_right_map {
