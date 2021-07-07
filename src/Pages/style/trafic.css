@@ -69,9 +69,10 @@
 /* trafic table  */
 
 .trafic_table_sd {
-  height: 120vh;
+  /* height: 120vh; */
   overflow: auto;
   margin-top: 15px;
+  max-height: 120vh;
 }
 .trafic_table_sd::-webkit-scrollbar {
   width: 5px;
@@ -223,8 +224,11 @@
   }
   .trafic_right_map {
     position: relative;
+    /* margin-bottom: 50px; */
   }
-
+.copyR_tr_md{
+  margin-top: 20px;
+}
   .google_map_md {
     width: 100%;
   }
@@ -295,6 +299,9 @@
   }
   .statistics_card_md > div:nth-child(4) {
     margin-top: 10px;
+  }
+  .copyR_tr_md{
+    margin-top: 140px;
   }
 }
 @media screen and (max-width: 370px) {
