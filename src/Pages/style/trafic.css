@@ -9,6 +9,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 90vh;
+  /* overflow-y: auto; */
 }
 .trafic_left_content {
   width: 52%;
@@ -41,7 +43,7 @@
 }
 .trafic_right_map {
   margin-top: 30px;
-  height: 120vh;
+  height: 60vh;
   margin-bottom: 50px;
 }
 .overall_users {
@@ -72,7 +74,7 @@
   /* height: 120vh; */
   overflow: auto;
   margin-top: 15px;
-  max-height: 120vh;
+  max-height: 75vh;
 }
 .trafic_table_sd::-webkit-scrollbar {
   width: 5px;
@@ -94,6 +96,9 @@
   font-size: 1em;
   text-align: center;
   min-width: 500px;
+  overflow-y: auto;
+  margin-bottom: 0px !important;
+  /* height: max-content; */
 }
 .custom_table th {
   padding-left: 0px !important;
@@ -152,7 +157,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
@@ -171,7 +176,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px 13px;
+  padding: 25px 30px;
   border-radius: 18px;
   text-align: center;
   margin: 0px 5px;
@@ -186,11 +191,11 @@
   height: 30px;
 }
 .statistics_card p {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   margin-bottom: 0px;
 }
 .statistics_card h5 {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 .purple {
   background-color: #8675ff;
@@ -221,9 +226,11 @@
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
             align-items: inherit;
+            height: max-content;
   }
   .trafic_right_map {
     position: relative;
+    height: 70vh;
     /* margin-bottom: 50px; */
   }
 .copyR_tr_md{
