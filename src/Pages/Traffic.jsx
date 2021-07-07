@@ -6,7 +6,9 @@ import CopyRight from "../Layout/CopyRight";
 import "./style/trafic.css";
 // assets
 // import next from "../Assets/Icon material-navigate-next.png";
+
 const Traffic = () => {
+
   return (
     <React.Fragment>
       <div className="trafic_container">

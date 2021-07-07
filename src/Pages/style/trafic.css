@@ -54,15 +54,16 @@
 .trafic_table_sd {
   height: 120vh;
   overflow: auto;
-  padding-left: 5px;
   margin-top: 15px;
 }
 .trafic_table_sd::-webkit-scrollbar {
   width: 5px;
 }
 .custom_table {
+  padding-left: 5px;
+  padding-right: 5px;
   border-radius: 8px;
-  border: 1px dashed #013220;
+  border: 11px inset #013220;
   /* border: none; */
   /* border-bottom: none; */
   border-spacing: 0 10px;
