@@ -383,6 +383,11 @@
 .mob_view_copy {
   display: none;
 }
+@media screen and (max-width: 1400px) {
+  .analytic_google_map{
+    width: 40%;
+  }
+}
 
 @media screen and (max-width: 1325px) {
   .visitors_container {
