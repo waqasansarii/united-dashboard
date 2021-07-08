@@ -45,6 +45,7 @@
   margin-top: 30px;
   height: 60vh;
   margin-bottom: 50px;
+  width: 47%;
 }
 .overall_users {
   display: -webkit-box;
@@ -160,6 +161,8 @@
   margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 10px;
+  /* border: 2px solid rgb(156, 154, 154); */
+  
 }
 .statistics_card {
   color: white;
@@ -182,6 +185,7 @@
   margin: 0px 5px;
   position: relative;
   z-index: 11111;
+  width: 23.5%;
 }
 .card_body_t {
   margin-top: 20px;
@@ -231,6 +235,7 @@
   .trafic_right_map {
     position: relative;
     height: 70vh;
+    width: 100%;
     /* margin-bottom: 50px; */
   }
 .copyR_tr_md{
