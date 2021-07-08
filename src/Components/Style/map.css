@@ -25,10 +25,16 @@
 }
 .google_map_md{
     height: 59vh;
+    /* height: 400px; */
     width: 47%;
     position: absolute;
     top: 50;
     right: 0;
+}
+@media screen and (min-height:800px){
+    .google_map_md{
+        height: 65vh;
+    }
 }
 .google_map_md>div>div{
     
