@@ -75,7 +75,8 @@
   /* height: 120vh; */
   overflow: auto;
   margin-top: 15px;
-  max-height: 76.3vh;
+  max-height: 76.1vh;
+  border: 11px inset #013220;
 }
 .trafic_table_sd::-webkit-scrollbar {
   width: 5px;
@@ -84,7 +85,6 @@
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 8px;
-  border: 11px inset #013220;
   /* border: none; */
   /* border-bottom: none; */
   border-spacing: 0 10px;
