@@ -28,8 +28,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 20px 0px;
   margin-bottom: 5px;
 }
@@ -52,8 +52,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: 0px;
 }
 .overall_users p,
@@ -77,6 +77,7 @@
   margin-top: 15px;
   max-height: 76.1vh;
   border: 11px inset #013220;
+  border-radius: 12px;
 }
 .trafic_table_sd::-webkit-scrollbar {
   width: 5px;
@@ -133,12 +134,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0px 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 30px;
 }
 
@@ -162,7 +163,6 @@
   margin-bottom: 10px;
   margin-left: 10px;
   /* border: 2px solid rgb(156, 154, 154); */
-  
 }
 .statistics_card {
   color: white;
@@ -170,15 +170,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 25px 30px;
   border-radius: 18px;
   text-align: center;
@@ -225,12 +225,12 @@
   .trafic_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: inherit;
-        -ms-flex-align: inherit;
-            align-items: inherit;
-            height: max-content;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    height: max-content;
   }
   .trafic_right_map {
     position: relative;
@@ -238,9 +238,9 @@
     width: 100%;
     /* margin-bottom: 50px; */
   }
-.copyR_tr_md{
-  margin-top: 20px;
-}
+  .copyR_tr_md {
+    margin-top: 20px;
+  }
   .google_map_md {
     width: 100%;
   }
@@ -303,16 +303,16 @@
 @media screen and (max-width: 450px) {
   .statistics_card_md {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     /* flex-direction: column; */
   }
   .statistics_card_md > div:nth-child(4) {
     margin-top: 10px;
   }
-  .copyR_tr_md{
+  .copyR_tr_md {
     margin-top: 140px;
   }
 }
